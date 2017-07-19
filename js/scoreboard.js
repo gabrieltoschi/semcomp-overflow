@@ -1,6 +1,6 @@
 var bg, text, blocks; // groups 
 /* bg */
-/* text */ var logo;
+/* text */ var logo, limit;
 /* blocks */
 
 var scoreboard = {
@@ -21,7 +21,15 @@ var scoreboard = {
 		logo.anchor.y = 0;
 		logo.scale.setTo((winWidth * (0.9)) / logo.width);
 		logo.x = winWidth / 2;
-		logo.y = winWidth * 0.05;
+		logo.y = winHeight * 0.05;
+
+		// creating limit indicator
+		limit = text.create(0, 0, 'limit');
+		limit.scale.setTo((winHeight * 0.05) / limit.height);
+		limit.anchor.x = 0;
+		limit.anchor.y = 0;	
+		limit.x = 0;
+		limit.y = logo.height + (winHeight * 0.05) + (winHeight * 0.02);
 	},
 
 	update: function(){

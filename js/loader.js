@@ -13,6 +13,7 @@ var assetLoader = {
 		// LOAD ASSETS
 		// logo and background
 		this.load.image('logo', 'images/overflow-logo.png');
+		this.load.image('limit', 'images/limit.png');
 
 		// letters/block
 		/*this.load.spritesheet('letters', 'images/letters.png', 383, 288);
