@@ -14,12 +14,19 @@ var assetLoader = {
 		this.load.image('logo', 'images/overflow-logo.png');
 		this.load.image('limit', 'images/limit.png');
 		this.load.image('textbg', 'images/text.png');
+		this.load.image('parallax', 'images/parallax.png');
 
 		// bases
 		this.load.image('lovelace-base', 'images/lovelace-base.png');
 		this.load.image('neumann-base', 'images/neumann-base.png');
 		this.load.image('shannon-base', 'images/shannon-base.png');
 		this.load.image('turing-base', 'images/turing-base.png');
+
+		// team names
+		this.load.image('lovelace-name', 'images/lovelace-name.png');
+		this.load.image('neumann-name', 'images/neumann-name.png');
+		this.load.image('shannon-name', 'images/shannon-name.png');
+		this.load.image('turing-name', 'images/turing-name.png');
 
 		// blocks
 		this.load.image('lovelace-block1', 'images/lovelace-block1.png');
