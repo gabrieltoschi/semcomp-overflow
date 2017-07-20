@@ -11,9 +11,16 @@ var assetLoader = {
 			{font: '30px Courier', fill: '#FFFFFF'});
 
 		// LOAD ASSETS
-		// logo and background
 		this.load.image('logo', 'images/overflow-logo.png');
 		this.load.image('limit', 'images/limit.png');
+		this.load.image('textbg', 'images/text.png');
+
+		// bases
+		this.load.image('lovelace-base', 'images/lovelace-base.png');
+		this.load.image('neumann-base', 'images/neumann-base.png');
+		this.load.image('shannon-base', 'images/shannon-base.png');
+		this.load.image('turing-base', 'images/turing-base.png');
+
 
 		// letters/block
 		/*this.load.spritesheet('letters', 'images/letters.png', 383, 288);
