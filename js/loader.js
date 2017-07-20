@@ -21,6 +21,15 @@ var assetLoader = {
 		this.load.image('shannon-base', 'images/shannon-base.png');
 		this.load.image('turing-base', 'images/turing-base.png');
 
+		// blocks
+		this.load.image('lovelace-block1', 'images/lovelace-block1.png');
+		this.load.image('lovelace-block2', 'images/lovelace-block2.png');
+		this.load.image('neumann-block1', 'images/neumann-block1.png');
+		this.load.image('neumann-block2', 'images/neumann-block2.png');		
+		this.load.image('shannon-block1', 'images/shannon-block1.png');
+		this.load.image('shannon-block2', 'images/shannon-block2.png');
+		this.load.image('turing-block1', 'images/turing-block1.png');
+		this.load.image('turing-block2', 'images/turing-block2.png');
 
 		// letters/block
 		/*this.load.spritesheet('letters', 'images/letters.png', 383, 288);
